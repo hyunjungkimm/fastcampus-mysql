@@ -44,6 +44,8 @@ create table POST
         primary key (id)
 );
 
+insert POST values(4,3,'string','2024-06-17','2024-06-17 10:44:39');
+
 create index POST__index_member_id
     on POST (memberId);
 
